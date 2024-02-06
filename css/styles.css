@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#maze {
+    width: 400px; /* Ancho del laberinto */
+    height: 400px; /* Alto del laberinto */
+    margin: 20px auto; /* Centrar el laberinto */
+    border: 2px solid black; /* Borde del laberinto */
+    position: relative;
+}
+.wall {
+    width: 40px; /* Ancho de la pared */
+    height: 40px; /* Alto de la pared */
+    background-color: #333; /* Color de la pared */
+    position: absolute;
+}
+#player {
+    width: 40px; /* Ancho del jugador */
+    height: 40px; /* Alto del jugador */
+    background-color: red; /* Color del jugador */
+    position: absolute;
+}
+.exit {
+    width: 40px; /* Ancho del punto de salida */
+    height: 40px; /* Alto del punto de salida */
+    background-color: green; /* Color del punto de salida */
+    position: absolute;
+}
